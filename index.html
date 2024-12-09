@@ -10,13 +10,24 @@
 </head>
 <body>
   <main>
-    <section class="inputs">
-      <input type="text" name="nameItemAdd" id="nameItemAdd">
-      <input type="button" value="Adicionar" class="addItemButton">
-    </section>
-    <section class="itemList">
-    </section>
+    <h1>Todo List</h1>
+    <div class="todo">
+      <form class="inputs">
+        <input type="text" name="nameItemAdd" id="nameItemAdd">
+        <input type="button" value="submit" id="buttonItemAdd">
+      </form>
+
+      <div class="todoItemList">
+      </div>
+    </div>
+
+    <div class="list">
+      <h2>Lista de Itens</h2>
+      <ul class="itemList">
+      </ul>
+    </div>
   </main>
-  <script src="script.js"></script>
+
+  <script type="module" src="main.js"></script>
 </body>
 </html>
